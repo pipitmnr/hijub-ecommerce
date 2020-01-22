@@ -2,7 +2,7 @@
 
 eval "$(ssh-agent -s)" &&
 ssh-add -k ~/.ssh/id_rsa &&
-cd /var/www/backend #helloworld
+cd ~/var/www/backend/restfulapi #helloworld
 git pull
 
 source ~/.profile
