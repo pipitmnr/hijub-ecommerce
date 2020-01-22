@@ -23,4 +23,4 @@ after_script:
 - docker push ${DOCKER_HUB_ORG}/${DOCKER_IMAGE_NAME}:deployment2
 - ssh-keyscan -H $SSH_IP >> ~/.ssh/known_hosts
 - ssh -v -i restfulapi/deploy_rsa $SSH_USER@$SSH_IP DIR=$ROOT_DIR  'bash -s' < restfulapi/deploy.sh
-#test
+#test ini yg baru
